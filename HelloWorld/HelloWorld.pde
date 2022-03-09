@@ -1,15 +1,7 @@
 //Global Variables
-char z; 
-char y;
-String d;
-String e;
-String f;
-String g; 
-String ten;
-String h;
-String one;
-int two;
-int skipCount=2;
+char z, y; 
+String d, e, f, g, ten, h, one;
+int two, skipCount=2
 //
 void setup() 
 {
@@ -32,7 +24,7 @@ void setup()
 //
 void draw() 
 {
-  two+=1; //two+1, two++  two+=1
+  two+=skipCount; 
   println(d+z, e, f, g, ten+y, h, str(two)+z);
 }//End draw
 //
