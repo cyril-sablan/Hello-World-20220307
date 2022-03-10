@@ -6,13 +6,13 @@ float decimal=1.0, thirty; //must include a zero decimal or compiler reads as IN
 //
 void setup() 
 {
-  String secondSentence = "Mr. Mercer counts to 10, by 1."; //Local Variables
+  String secondSentence = "Cyril Sablan counts to 10, by 1."; //Local Variables
   //println(secondSentence);
   //Populations, Declaration, Valuing
    z = '.'; 
    y = ',';
-   d = "Mr";
-   e = "Mercer";
+   d = "Cyril";
+   e = "Sablan";
    f = "counts";
    g = "to"; 
    ten = "10000";
